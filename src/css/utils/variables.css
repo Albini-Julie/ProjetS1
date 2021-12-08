@@ -1,0 +1,26 @@
+/* Color styles */
+:root {
+    /* Color styles */
+    /* Color styles */
+    --bleu-pastel: #79BCD9;
+    --blanc: #FFFFFF;
+    --rose-pastel: #EABEBD;
+    --noir: #000000;
+
+    /* Text-size styles */
+    /* base size: base (16px) */
+    --champ-formulaire: 1.25rem;
+    --titre-article: 1.25rem;
+    --titre-1: 2.5rem;
+    --titre-page: 1.88rem;
+    --onglet-menu: 1.44rem;
+    --intertitre-article: 0.94rem;
+    --introduction-article: 0.88rem;
+    --lien-article-intertitre-galerie: 0.88rem;
+    --texte: 0.88rem;
+    --introduction-article: 0.88rem;
+    --footer: 0.75rem;
+    --légende-image: 0.75rem;
+    --onglet-menu-2: 1.88rem;
+    --base: 1rem;
+}
