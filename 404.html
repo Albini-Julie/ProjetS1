@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <title>404 - Page not finded</title>
-    <h1>Page not finded</h1>
-    <form action="https://duckduckgo.com/" method="GET" 
-        x-data="{ q:'', }" 
-        x-on:submit="q = q + ' site:mmimontbeliard.com'">
-    <label for="q">Text to search :</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Search</button>
-    </form>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site Femina">
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <title>404 - Page not finded</title>
+        <h1>Page not finded</h1>
+        <p>We can't accede to your request. Please enter a new website name.</p>
+        <form action="https://duckduckgo.com/" method="GET" 
+            x-data="{ q:'', }" 
+            x-on:submit="q = q'">
+        <label for="q">Text to search :</label>
+        <input type="text" id="q" name="q" x-model="q">
+        <button type="submit">Search</button>
+        </form>
+    </body>
+</html>
+    
