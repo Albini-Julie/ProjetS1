@@ -11,67 +11,68 @@
         <link rel="stylesheet" href="src/css/style.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <a href="index_en.html">
-                <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina's logo">
+                <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina's logo">
             </a>
             <button>
-                <img src="public/icons/icone_de_recherche.svg" alt="search icon">
+                <img class="header__menu" src="public/icons/icone_de_recherche.svg" alt="search icon">
             </button>
-            <h1>Femina</h1>
+            <h1 class="header__title">Femina</h1>
             <nav>
-            <ul>
-                <li><a href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
-                <li><a href="article2_en.html">Michelle Obama, an international feminist</a></li>
-                <li><a href="article3_en.html">Hidden Figures, Sunlights figures despite them</a></li>
-                <li><a href="galerie_en.html">Gallery</a></li>
-                <li><a href="glossaire_en.html">Glossary</a></li>
-                <li><a href="A_propos_en.html">By the way</a></li>
+            <ul class="menu">
+                <li class="menu__lien"><a href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
+                <li class="menu__lien"><a href="article2_en.html">Michelle Obama, an international feminist</a></li>
+                <li class="menu__lien"><a href="article3_en.html">Hidden Figures, Sunlights figures despite them</a></li>
+                <li class="menu__lien"><a href="galerie_en.html">Gallery</a></li>
+                <li class="menu__lien"><a href="glossaire_en.html">Glossary</a></li>
+                <li class="menu__lien"><a href="A_propos_en.html">By the way</a></li>
             </ul>
             </nav>
             <details>
-            <summary>Langages</summary> 
-            <a href=index_en.html>English</a>
-            <a href=index.html>Français</a> 
+            <summary class="menu__langues">Langages</summary> 
+            <a class="menu__lien" href=index_en.html>English</a>
+            <a class="menu__lien" href=index.html>Français</a> 
             </details>
         </header>
         <main>
             <div>
-                <article>
-                    <h2>Contact us</h2>
-                    <p>If you want let a comment or inform us of a problem on the website that you have noted, it is here that you can contact us. You have just to complete this information :</p>
+                <article class="hero">
+                    <h2 class="hero__title">Contact us</h2>
+                    <p class="hero__intro">If you want let a comment or inform us of a problem on the website that you have noted, it is here that you can contact us. You have just to complete this information :</p>
                 </article>
                 <div>
-                    <form>
+                    <form class="formulaire">
                         <div>
-                            <label for="ligne_nom">Name</label>
-                            <input type="text" id="ligne_nom">
+                            <label class="formulaire__legende" for="ligne_nom">Name</label>
+                            <input class="formulaire__champ" type="text" id="ligne_nom">
                         </div>
                         <div>
-                            <label for="ligne_prénom">First name</label>
-                            <input type="text" id="ligne_prénom">
+                            <label class="formulaire__legende" for="ligne_prénom">First name</label>
+                            <input class="formulaire__champ" type="text" id="ligne_prénom">
                         </div>
                         <div>
-                            <label for="ligne_mail">E-mail</label>
-                            <input type="text" id="ligne_mail">
+                            <label class="formulaire__legende" for="ligne_mail">E-mail</label>
+                            <input class="formulaire__champ" type="text" id="ligne_mail">
                         </div>
                         <div>
-                            <label for="ligne_message">Your message</label>
-                            <input type="text" id="ligne_message">
+                            <label class="formulaire__legende" for="ligne_message">Your message</label>
+                            <input class="formulaire__champ" type="text" id="ligne_message">
                         </div>
                         <div>
-                            <button type="submit">Send</button>
+                            <button class="formulaire__envoyer" type="submit">Send</button>
                         </div>
                     </form>
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <hr>
-            <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina logo">
-            <p>Julie Albini - A1 groupe</p>
-            <p>julie-albini@orange.fr</p>                                
-            <p>Project made for an educational exercise in the MMI Montbeliard department.</p>
+            <img class="footer__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
+            <a class="footer__lien" href = "contact.html">Contact</a>
+            <p class="footer__text">Julie Albini - Groupe A1</p>
+            <p class="footer__text">julie-albini@orange.fr</p>                                
+            <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard.</p>
         </footer>
     </body>
 </html>
