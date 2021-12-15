@@ -11,89 +11,95 @@
         <link rel="stylesheet" href="src/css/style.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <a href="index_en.html">
-                <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina's logo">
+                <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina's logo">
             </a>
             <button>
-                <img src="public/icons/icone_de_recherche.svg" alt="search icon">
+                <img class="header__menu" src="public/icons/icone_de_recherche.svg" alt="search icon">
             </button>
-            <h1>Femina</h1>
+            <h1 class="header__title">Femina</h1>
             <nav>
-            <ul>
-                <li><a href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
-                <li><a href="article2_en.html">Michelle Obama, an international feminist</a></li>
-                <li><a href="article3_en.html">Hidden Figures, Sunlights figures despite them</a></li>
-                <li><a href="galerie_en.html">Gallery</a></li>
-                <li><a href="glossaire_en.html">Glossary</a></li>
-                <li><a href="A_propos_en.html">By the way</a></li>
+            <ul class="menu">
+                <li class="menu__lien"><a href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
+                <li class="menu__lien"><a href="article2_en.html">Michelle Obama, an international feminist</a></li>
+                <li class="menu__lien"><a href="article3_en.html">Hidden Figures, Sunlights figures despite them</a></li>
+                <li class="menu__lien"><a href="galerie_en.html">Gallery</a></li>
+                <li class="menu__lien"><a href="glossaire_en.html">Glossary</a></li>
+                <li class="menu__lien"><a href="A_propos_en.html">By the way</a></li>
             </ul>
             </nav>
             <details>
-            <summary>Langages</summary> 
-            <a href=index_en.html>English</a>
-            <a href=index.html>Français</a> 
+            <summary class="menu__langues">Langages</summary> 
+            <a class="menu__lien" href=index_en.html>English</a>
+            <a class="menu__lien" href=index.html>Français</a> 
             </details>
         </header>
         <main>
             <div>
-                <article>
-                    <h2>The men’s role in feminism, forgotten activists</h2>
-                    <p>Feminism is not only women who fight for their rights and their role in society. For the story and still today, men have been interested and involved in feminism. Although they are in minority, it is important to show them as it is only with the support of men and the evolution of their mind that our society can improve itself.</p>
-                    <h3>The masculin feminism</h3>
-                    <p>When we talk about feminism, we often think about women who fight for women. However men have too participated in their emancipation.</p>
-                    <figure>
-                        <img src="public/img/real-men-are-feminists.webp" alt="image of feminist men">
-                        <figcaption>Feminist demontration</figcaption>
-                    </figure>
+                <article class="hero">
+                    <h2 class="hero__title hero__title--article">The men’s role in feminism, forgotten activists</h2>
+                    <p class="hero__intro">Feminism is not only women who fight for their rights and their role in society. For the story and still today, men have been interested and involved in feminism. Although they are in minority, it is important to show them as it is only with the support of men and the evolution of their mind that our society can improve itself.</p>
                 </article>
                 
-                <article>
-                    <h3>Actives feminist</h3>
-                    <p>As soon as 1673  philosophe Poulain de la barre speaks about equality between men and women in his book De l’égalité des deux sexes. According to him :</p>
-                    <a href="#debut-de-page"><img src="public/icons/Flèches_noires.svg" alt="next part passage"></a>
+                <article class="contenu">
+                <h3 class="contenu__intertitle">The masculin feminism</h3>
+                <p class="contenu__text">When we talk about feminism, we often think about women who fight for women. However men have too participated in their emancipation.</p>
+                <figure class="contenu__illustration">
+                    <img class="contenu__img" src="public/img/real-men-are-feminists.webp" alt="image of feminist men">
+                    <figcaption class="contenu__legende">Feminist demontration</figcaption>
+                </figure>
+                </article>
+                
+                <article class="contenu">
+                    <h3 class="contenu__intertitle">Actives feminist</h3>
+                    <p class="contenu__text">As soon as 1673  philosophe Poulain de la barre speaks about equality between men and women in his book De l’égalité des deux sexes. According to him :</p>
+                    <a class="contenu__icon" href="#debut-de-page"><img src="public/icons/Flèches_noires.svg" alt="next part passage"></a>
                     <div id="debut-de-page"></div>
-                    <q>“intellect has any gender”</q>
-                    <p>He broaches about some sociology’s concept as he thinks that reproductive fonctions have any influence on feminine’s capacities. It is rather their education. At the time he is alone to think that, in fact his vision is not very shared.</p>
-                    <p>A century later, he was supported by Nicolas de Condorcet which confirmed Poulain de la Barre's thinking.</p>
-                    <p>Indeed, according to him, the difference between men and women is not natural. It comes from our society and her laws which deprive women of education and reinforce masuline’s superiority.</p>
-                    <p>It is particularly at the end of the 18 century and during the 19 century that a lot of intellectuals begin to become in favour of gender’s equality. It is the case of Pierre Choderlos de Laclos, writer about De l’éducation des femmes  in which he defends the idea that women are not men’s partners but their slaves ; or else John Stuart Mill with his book De l’assujettissement des femmes. </p>
-                    <p>Some men like René Viviani, Ferdinand Buisson or Léon Richer, which according to Simone de Beauvoir is “the real founder of feminism”, has influenced feminism a lot. Indeed, in 1870 Léon Richer created the Organization for Women’s rights, and then the International Congress of Women’s rights.</p>
-                    <figure>
-                        <img src="public/img/Léon_Richer.webp" alt="Image of Leon Richer">
-                        <figcaption>Léon Richer</figcaption>
+                    <q class="contenu__citation">“intellect has any gender”</q>
+                    <p class="contenu__text">He broaches about some sociology’s concept as he thinks that reproductive fonctions have any influence on feminine’s capacities. It is rather their education. At the time he is alone to think that, in fact his vision is not very shared.</p>
+                    <p class="contenu__text">A century later, he was supported by Nicolas de Condorcet which confirmed Poulain de la Barre's thinking.</p>
+                    <p class="contenu__text">Indeed, according to him, the difference between men and women is not natural. It comes from our society and her laws which deprive women of education and reinforce masuline’s superiority.</p>
+                    <p class="contenu__text">It is particularly at the end of the 18 century and during the 19 century that a lot of intellectuals begin to become in favour of gender’s equality. It is the case of Pierre Choderlos de Laclos, writer about De l’éducation des femmes  in which he defends the idea that women are not men’s partners but their slaves ; or else John Stuart Mill with his book De l’assujettissement des femmes. </p>
+                    <p class="contenu__text">Some men like René Viviani, Ferdinand Buisson or Léon Richer, which according to Simone de Beauvoir is “the real founder of feminism”, has influenced feminism a lot. Indeed, in 1870 Léon Richer created the Organization for Women’s rights, and then the International Congress of Women’s rights.</p>
+                    <figure class="contenu__illustration">
+                        <img class="contenu__img" src="public/img/Léon_Richer.webp" alt="Image of Leon Richer">
+                        <figcaption class="contenu__legende">Léon Richer</figcaption>
                     </figure>
-                    <p>Men are more and more interested in feminism and participate in thinking and progress about it. Thus, even if they are not a lot, they merited to be recognized.                     </p>
-                    <p>Today, some men are involved in feminism : Barack Obama supports actively this case, <a href="https://fr.wikipedia.org/wiki/Pharrell_Williams">Pharrell Williams</a> is also involved in his songs for feminism, <a href="https://fr.wikipedia.org/wiki/Henry_de_Sussex">Prince Harry</a> is committed for girl’s education access all around the world, or else <a href="https://fr.wikipedia.org/wiki/Mark_Ruffalo#Filmographie">Mark Ruffallo</a> has signed a letter to defend abortion right and has also done the “Women’s walking” in 2016 to promote equality between gender.</p>
-                    <figure>
-                        <img src="public/img/Marche_pour_les_femmes.webp">
-                        <figcaption>Women’s walking on Washington</figcaption>
+                    <p class="contenu__text">Men are more and more interested in feminism and participate in thinking and progress about it. Thus, even if they are not a lot, they merited to be recognized.                     </p>
+                    <p class="contenu__text">Today, some men are involved in feminism : Barack Obama supports actively this case, <a href="https://fr.wikipedia.org/wiki/Pharrell_Williams">Pharrell Williams</a> is also involved in his songs for feminism, <a href="https://fr.wikipedia.org/wiki/Henry_de_Sussex">Prince Harry</a> is committed for girl’s education access all around the world, or else <a href="https://fr.wikipedia.org/wiki/Mark_Ruffalo#Filmographie">Mark Ruffallo</a> has signed a letter to defend abortion right and has also done the “Women’s walking” in 2016 to promote equality between gender.</p>
+                    <figure class="contenu__illustration">
+                        <img class="contenu__img" src="public/img/Marche_pour_les_femmes.webp">
+                        <figcaption class="contenu__legende">Women’s walking on Washington</figcaption>
                     </figure>
                 </article>
 
-                <article>
-                    <h3> Feminist but not heros</h3>
-                    <p>We have to make a difference between recognizing the role of some men in feminism's fight and taking them to heros. Indeed, men don’t have to invisibilize women in their fight.</p>
-                    <p>Women stay people the most involved and from we owe the majority of progress in equality between gender. We have to admit existence of feminist men and their contribution in the progress for women’s rights, without forget that they are in minority.</p>
-                    <p>In the book Ces hommes qui épousèrent la cause des femmes, Martine Monacelli and <a href"https://ict.u-paris.fr/michel-prum">Michel Prum</a> say “It is time that women admit their debt to these champions and give them back to their part of legacy.”. </p>
-                    <p>However, they forget that women are in majority in this fight for women’s rights, and that a lot of men are sexist, misogynist and against the development of women’s situation.  </p>
-                    <p>Finally, stand out feminist men let thinking that be a men can’t be compatible with being feminist as it is two different things. Nevertheless, today, more and more men are feminist and it is very important for a well developpement of our society.</p>
-                    <h3>You will like too</h3>
-                    <a href="article2.html">
-                        <img src="public/img/Image_article_Michelle_Obama.webp" alt="image article Michelle Obama, an international feminist">
-                        <h4>Michelle Obama, an international feminist</h4>
-                        <p>Michelle Obama is a stakeholder about actual feminism. Very involved, she does a lot of speeches to promote feminism’s values all around the world.</p>
+                <article class="contenu">
+                    <h3 class="contenu__intertitle"> Feminist but not heros</h3>
+                    <p class="contenu__text">We have to make a difference between recognizing the role of some men in feminism's fight and taking them to heros. Indeed, men don’t have to invisibilize women in their fight.</p>
+                    <p class="contenu__text">Women stay people the most involved and from we owe the majority of progress in equality between gender. We have to admit existence of feminist men and their contribution in the progress for women’s rights, without forget that they are in minority.</p>
+                    <p class="contenu__text">In the book Ces hommes qui épousèrent la cause des femmes, Martine Monacelli and <a href="https://ict.u-paris.fr/michel-prum">Michel Prum</a> say “It is time that women admit their debt to these champions and give them back to their part of legacy.”. </p>
+                    <p class="contenu__text">However, they forget that women are in majority in this fight for women’s rights, and that a lot of men are sexist, misogynist and against the development of women’s situation.  </p>
+                    <p class="contenu__text">Finally, stand out feminist men let thinking that be a men can’t be compatible with being feminist as it is two different things. Nevertheless, today, more and more men are feminist and it is very important for a well developpement of our society.</p>
+                    <h3 class="contenu__intertitle">You will like too</h3>
+                </article>
+
+                <article class="work">
+                    <a class="work__lien" href="article2.html">
+                        <img class="work__img" src="public/img/Image_article_Michelle_Obama.webp" alt="image article Michelle Obama, an international feminist">
+                        <h4 class="work__title">Michelle Obama, an international feminist</h4>
+                        <p class="work__text">Michelle Obama is a stakeholder about actual feminism. Very involved, she does a lot of speeches to promote feminism’s values all around the world.</p>
                     </a>
                 </article>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <hr>
-            <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina logo">
-            <a href = "contact_en.html">Contact</a>
-            <p>Julie Albini - A1 groupe</p>
-            <p>julie-albini@orange.fr</p>                                
-            <p>Project made for an educational exercise in the MMI Montbeliard department.</p>
+            <img class="footer__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina logo">
+            <a class="footer__lien" href = "contact_en.html">Contact</a>
+            <p class="footer__text">Julie Albini - A1 groupe</p>
+            <p class="footer__text">julie-albini@orange.fr</p>                                
+            <p class="footer__text">Project made for an educational exercise in the MMI Montbeliard department.</p>
         </footer>
     </body>
 </html>
