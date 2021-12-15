@@ -11,127 +11,131 @@
         <link rel="stylesheet" href="src/css/style.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <a href="index_en.html">
-                <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina's logo">
+                <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina's logo">
             </a>
             <button>
-                <img src="public/icons/icone_de_recherche.svg" alt="search icon">
+                <img class="header__menu" src="public/icons/icone_de_recherche.svg" alt="search icon">
             </button>
-            <h1>Femina</h1>
+            <h1 class="header__title">Femina</h1>
             <nav>
-            <ul>
-                <li><a href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
-                <li><a href="article2_en.html">Michelle Obama, an international feminist</a></li>
-                <li><a href="article3_en.html">Hidden Figures, Sunlights figures despite them</a></li>
-                <li><a href="galerie_en.html">Gallery</a></li>
-                <li><a href="glossaire_en.html">Glossary</a></li>
-                <li><a href="A_propos_en.html">By the way</a></li>
+            <ul class="menu">
+                <li class="menu__lien"><a href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
+                <li class="menu__lien"><a href="article2_en.html">Michelle Obama, an international feminist</a></li>
+                <li class="menu__lien"><a href="article3_en.html">Hidden Figures, Sunlights figures despite them</a></li>
+                <li class="menu__lien"><a href="galerie_en.html">Gallery</a></li>
+                <li class="menu__lien"><a href="glossaire_en.html">Glossary</a></li>
+                <li class="menu__lien"><a href="A_propos_en.html">By the way</a></li>
             </ul>
             </nav>
             <details>
-            <summary>Langages</summary> 
-            <a href=index_en.html>English</a>
-            <a href=index.html>Français</a> 
+            <summary class="menu__langues">Langages</summary> 
+            <a class="menu__lien" href=index_en.html>English</a>
+            <a class="menu__lien" href=index.html>Français</a> 
             </details>
         </header>
         <main>
             <div>
-                <article>
-                    <h2>Glossary</h2>
-                    <p>You will find in this page all the words which can pose a problem or for which it can be interessant to have a definition or complementary information.</p>
-                    <dl>
-                        <dt><dfn>Organization for Women’s rights (proper noun)</dfn></dt>
-                        <dd>created on 16 April 1870 by Leon Richter. It fights for the improvement of women’s situation. In 1882, it became the french league for women's rights.</dd>
+                <article class="hero">
+                    <h2 class="hero__title">Glossary</h2>
+                    <p class="hero__intro">You will find in this page all the words which can pose a problem or for which it can be interessant to have a definition or complementary information.</p>
+                    
+                    <dl class="contenu">
+                        <dt><dfn class="contenu__text contenu__text--souligne">Organization for Women’s rights (proper noun)</dfn></dt>
+                        <dd class="contenu__text">created on 16 April 1870 by Leon Richter. It fights for the improvement of women’s situation. In 1882, it became the french league for women's rights.</dd>
 
-                        <dt><dfn>#Balancetonporc (hashtag)</dfn></dt>
-                        <dd>Social movement which gives speaking to victims or witnesses of rapes or sexual assaults. It was created in 2017.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">#Balancetonporc (hashtag)</dfn></dt>
+                        <dd class="contenu__text">Social movement which gives speaking to victims or witnesses of rapes or sexual assaults. It was created in 2017.</dd>
 
-                        <dt><dfn>MMI BUT (proper noun)</dfn></dt>
-                        <dd>Educational establishment of 3 years which prepares web’s jobs.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">MMI BUT (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Educational establishment of 3 years which prepares web’s jobs.</dd>
 
-                        <dt><dfn>Ces hommes qui épousèrent la cause des femmes (proper noun)</dfn></dt>
-                        <dd>Novel by Martine Monacelli and Michel Prum which speaks about feminist men in Great Britain during the XIX century.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Ces hommes qui épousèrent la cause des femmes (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Novel by Martine Monacelli and Michel Prum which speaks about feminist men in Great Britain during the XIX century.</dd>
                     </dl>
-                        <a href="#debut-de-page"><img src="public/icons/Flèches_noires.svg" alt="next part passage"></a>
-                        <div id="debut-de-page"></div>
-                    <dl>
-                        <dt><dfn>Civil code (proper noun)</dfn></dt>
-                        <dd>Legal code which assembles laws about people’s positions, property and relation between private people.</dd>
+                    <div class="contenu">
+                        <a class="contenu__icon" href="#debut-de-page"><img src="public/icons/Flèches_noires.svg" alt="next part passage"></a>
+                    </div>
+                    <div id="debut-de-page"></div>
+                    
+                    <dl class="contenu">
+                        <dt><dfn class="contenu__text contenu__text--souligne">Civil code (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Legal code which assembles laws about people’s positions, property and relation between private people.</dd>
 
-                        <dt><dfn>International Congress of Women’s rights (proper noun)</dfn></dt>
-                        <dd>Feminist meeting which has taken place on 25 July to 9 August 1878 in Paris.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">International Congress of Women’s rights (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Feminist meeting which has taken place on 25 July to 9 August 1878 in Paris.</dd>
 
-                        <dt><dfn>Declaration of woman’s and citizen’s rights (proper noun)</dfn></dt>
-                        <dd>French legal text written by Olympe de Gouges to demand legal, politic, social integration for women.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Declaration of woman’s and citizen’s rights (proper noun)</dfn></dt>
+                        <dd class="contenu__text">French legal text written by Olympe de Gouges to demand legal, politic, social integration for women.</dd>
 
-                        <dt><dfn>De l'assujettissement des femmes (proper noun)</dfn></dt>
-                        <dd>Literary essay by John Stuart Mill published in 1869 and in which he brings his ideas of equality between men and women and right vote developed with his wife.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">De l'assujettissement des femmes (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Literary essay by John Stuart Mill published in 1869 and in which he brings his ideas of equality between men and women and right vote developed with his wife.</dd>
 
-                        <dt><dfn>De l’éducation des femmes (proper noun)</dfn></dt>
-                        <dd>Book by Pierre de Choderlos de Laclos written in 1783 which speaks about the fate reserved by our society for women.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">De l’éducation des femmes (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Book by Pierre de Choderlos de Laclos written in 1783 which speaks about the fate reserved by our society for women.</dd>
 
-                        <dt><dfn>De l’égalité des deux sexes (proper noun)</dfn></dt>
-                        <dd>Physical and moral speech dated 1673 which mentions and defends equality between men and women.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">De l’égalité des deux sexes (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Physical and moral speech dated 1673 which mentions and defends equality between men and women.</dd>
 
-                        <dt><dfn>Emancipation (noun)</dfn></dt>
-                        <dd>Action to liberate or to liberate himself about an authority or prejudice.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Emancipation (noun)</dfn></dt>
+                        <dd class="contenu_text">Action to liberate or to liberate himself about an authority or prejudice.</dd>
 
-                        <dt><dfn>Harvard’s university (proper noun)</dfn></dt>
-                        <dd>American private University situated in Cambridge which was founded in 1636. She is considered one of the most prestigious institutions in the world.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Harvard’s university (proper noun)</dfn></dt>
+                        <dd class="contenu__text">American private University situated in Cambridge which was founded in 1636. She is considered one of the most prestigious institutions in the world.</dd>
 
-                        <dt><dfn>Feminism (noun)</dfn></dt>
-                        <dd>Ensemble of movements and philosophic ideas which defines and promotes equality between men and women and women’s rights.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Feminism (noun)</dfn></dt>
+                        <dd class="contenu__text">Ensemble of movements and philosophic ideas which defines and promotes equality between men and women and women’s rights.</dd>
 
-                        <dt><dfn>Women’s walking (proper noun)</dfn></dt>
-                        <dd>Political meeting in Washington on 21 January 2017 to promote among others women’s rights.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Women’s walking (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Political meeting in Washington on 21 January 2017 to promote among others women’s rights.</dd>
 
-                        <dt><dfn>Le deuxième sexe (proper noun)</dfn></dt>
-                        <dd>Feminist essay by Simone de Beauvoir written in 1949. It interests itself about women’s place and her cause with an objective and philosophic gaze.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Le deuxième sexe (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Feminist essay by Simone de Beauvoir written in 1949. It interests itself about women’s place and her cause with an objective and philosophic gaze.</dd>
 
-                        <dt><dfn>Law for professional equality (proper noun)</dfn></dt>
-                        <dd>Law of the 13 July 1983 which modifies the labour code and the penal code to add professional equality between men and women.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Law for professional equality (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Law of the 13 July 1983 which modifies the labour code and the penal code to add professional equality between men and women.</dd>
 
-                        <dt><dfn>Abortion (noun)</dfn></dt>
-                        <dd>abortion made because of personal or familial choice and not because of medical reasons. It is made in a very precise legal setting.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Abortion (noun)</dfn></dt>
+                        <dd class="contenu__text">abortion made because of personal or familial choice and not because of medical reasons. It is made in a very precise legal setting.</dd>
                             
-                        <dt><dfn>Veil Law (proper noun)</dfn></dt>
-                        <dd>Law of the 17 January 1975 which legalizes abortion.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Veil Law (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Law of the 17 January 1975 which legalizes abortion.</dd>
 
-                        <dt><dfn>Movement of women’s liberation (proper noun)</dfn></dt>
-                        <dd>Feminist and not mixed movement which claim liberty for women to have available about their body and which question partiarchal society.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Movement of women’s liberation (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Feminist and not mixed movement which claim liberty for women to have available about their body and which question partiarchal society.</dd>
 
-                        <dt><dfn>Constitution’s preamble (proper noun)</dfn></dt>
-                        <dd>Ensemble of fundamental rights and liberties which appeared necessary to add in the Declaration of Man and citizen’s rights in the end of the Second World War.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Constitution’s preamble (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Ensemble of fundamental rights and liberties which appeared necessary to add in the Declaration of Man and citizen’s rights in the end of the Second World War.</dd>
 
-                        <dt><dfn>Martine Monacelli (proper noun)</dfn></dt>
-                        <dd>She is a teacher of British civilization in the Nice-Sophia Antipolis University in Nice.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Martine Monacelli (proper noun)</dfn></dt>
+                        <dd class="contenu__text">She is a teacher of British civilization in the Nice-Sophia Antipolis University in Nice.</dd>
 
-                        <dt><dfn>#metoo (hashtag)</dfn></dt>
-                        <dd>Social movement to liberate speaking of women victims and witness of sexual violence. It started in 2007 and has been particularly famous in 2017.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">#metoo (hashtag)</dfn></dt>
+                        <dd class="contenu__text">Social movement to liberate speaking of women victims and witness of sexual violence. It started in 2007 and has been particularly famous in 2017.</dd>
 
-                        <dt><dfn>State’s secretarial work for the women’s status (proper noun)</dfn></dt>
-                        <dd>Created in France in 1974 by Valéry Giscard d’Estaing. It is charged to take measures to improve women’s situation and suppress discrimination.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">State’s secretarial work for the women’s status (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Created in France in 1974 by Valéry Giscard d’Estaing. It is charged to take measures to improve women’s situation and suppress discrimination.</dd>
 
-                        <dt><dfn>Shoah (proper noun)</dfn></dt>
-                        <dd>Systematic extermination process on the jewish people by the Nazi Germany during the Second World War. It has prompted the disappearance of 5-6 millions jews.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Shoah (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Systematic extermination process on the jewish people by the Nazi Germany during the Second World War. It has prompted the disappearance of 5-6 millions jews.</dd>
 
-                        <dt><dfn>Sociology (proper noun)</dfn></dt>
-                        <dd>Study and analysis of relations and social representations in our society, specially across her transformations.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">Sociology (proper noun)</dfn></dt>
+                        <dd class="contenu__text">Study and analysis of relations and social representations in our society, specially across her transformations.</dd>
 
-                        <dt><dfn>The Oprah Winfrey Show (proper noun)</dfn></dt>
-                        <dd>American talk show presented and produced by Oprah Winfrey. It is interested itself about world’s actualities and issues.</dd>
+                        <dt><dfn class="contenu__text contenu__text--souligne">The Oprah Winfrey Show (proper noun)</dfn></dt>
+                        <dd class="contenu__text">American talk show presented and produced by Oprah Winfrey. It is interested itself about world’s actualities and issues.</dd>
                     </dl>
                 </article>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <hr>
-            <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina logo">
-            <a href = "contact_en.html">Contact</a>
-            <p>Julie Albini - A1 groupe</p>
-            <p>julie-albini@orange.fr</p>                                
-            <p>Project made for an educational exercise in the MMI Montbeliard department.</p>
+            <img class="footer__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
+            <a class="footer__lien" href = "contact.html">Contact</a>
+            <p class="footer__text">Julie Albini - Groupe A1</p>
+            <p class="footer__text">julie-albini@orange.fr</p>                                
+            <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard.</p>
         </footer>
     </body>
 </html>
