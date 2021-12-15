@@ -11,108 +11,108 @@
         <link rel="stylesheet" href="src/css/style.css">
     </head>
     <body>
-        <header>
-            <a href="index.html">
-                <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
-            </a>
+        <header class="header">
+            <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
             <button>
-                <img src="public/icons/icone_de_recherche.svg" alt="icone de recherche">
+                <img class="header__menu" src="public/icons/icone_de_recherche.svg" alt="icone de menu">
             </button>
-            <h1>Femina</h1>
+            <h1 class="header__title">Femina</h1>
             <nav>
-            <ul>
-                <li><a href="article1.html">Le rôle des hommes dans le féminisme, militants oubliés</a></li>
-                <li><a href="article2.html">Michelle Obama, une féministe internationale</a></li>
-                <li><a href="article3.html">Les figures de l'ombre, lumières malgré elles</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="glossaire.html">Glossaire</a></li>
-                <li><a href="A_propos.html">À propos</a></li>
+            <ul class="menu">
+                <li class="menu__lien"><a href="article1.html">Le rôle des hommes dans le féminisme, militants oubliés</a></li>
+                <li class="menu__lien"><a href="article2.html">Michelle Obama, une féministe internationale</a></li>
+                <li class="menu__lien"><a href="article3.html">Les figures de l'ombre, lumières malgré elles</a></li>
+                <li class="menu__lien"><a href="galerie.html">Galerie</a></li>
+                <li class="menu__lien"><a href="glossaire.html">Glossaire</a></li>
+                <li class="menu__lien"><a href="A_propos.html">À propos</a></li>
             </ul>
             </nav>
             <details>
-            <summary>Langues</summary> 
-            <a href=index_en.html>English</a>
-            <a href=index.html>Français</a> 
+            <summary class="menu__lien">Langues</summary> 
+            <a class="menu__langue" href=index_en.html>English</a>
+            <a class="menu__langue" href=index.html>Français</a> 
             </details>
         </header>
         <main>
             <div>
-                <article>
-                    <h2>Galerie</h2>
-                    <p>On va s’intéresser ici à plusieurs grandes figures féminines qui ont marqué l’histoire du féminisme et qui l'influencent parfois encore aujourd’hui. Elles ne sont bien sûr pas toutes présentes mais cette galerie permet néanmoins d’en apercevoir quelques-unes.</p>
+                <article class="hero">
+                    <h2 class="hero__title">Galerie</h2>
+                    <p class="hero__intro">On va s’intéresser ici à plusieurs grandes figures féminines qui ont marqué l’histoire du féminisme et qui l'influencent parfois encore aujourd’hui. Elles ne sont bien sûr pas toutes présentes mais cette galerie permet néanmoins d’en apercevoir quelques-unes.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Marie-Olympe-de-Gouges.webp" alt="Image de Olympe-de-Gouges">
-                    <h3>Olympes de Gouges</h3>
-                    <p>Olympes de Gouges est née le 7 mai 1948 à Montauban et est morte le 3 novembre 1793. C’était une femme de lettre et une femme politique. Elle est considérée comme une pionnière du féminisme en France. Elle a écrit  la Déclaration des droits de la femme et de la citoyenne. C’est une icône dans le combat de la défense des femmes.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Marie-Olympe-de-Gouges.webp" alt="Image de Olympe-de-Gouges">
+                    <h3 class="card__title">Olympes de Gouges</h3>
+                    <p class="card__text">Olympes de Gouges est née le 7 mai 1948 à Montauban et est morte le 3 novembre 1793. C’était une femme de lettre et une femme politique. Elle est considérée comme une pionnière du féminisme en France. Elle a écrit  la Déclaration des droits de la femme et de la citoyenne. C’est une icône dans le combat de la défense des femmes.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Simone_de_Beauvoir.webp" alt="Image de Simone de Beauvoir">
-                    <h3>Simone de Beauvoir</h3>
-                    <p>Simone de Beauvoir est née le 9 janvier 1908 à Paris et morte le 14 avril 1986. Auteure et philosophe, elle est considérée comme une des mères du féminisme, notamment grâce à son ouvrage Le Deuxième sexe. </p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Simone_de_Beauvoir.webp" alt="Image de Simone de Beauvoir">
+                    <h3 class="card__title">Simone de Beauvoir</h3>
+                    <p class="card__text">Simone de Beauvoir est née le 9 janvier 1908 à Paris et morte le 14 avril 1986. Auteure et philosophe, elle est considérée comme une des mères du féminisme, notamment grâce à son ouvrage Le Deuxième sexe. </p>
                 </article>
                 
-                <a href="#debut-de-page"><img src="public/icons/Flèches_noires.svg" alt="passage à la partie suivante"></a>
+                <div class="contenu">
+                    <a class="contenu__icon" href="#debut-de-page"><img src="public/icons/Flèches_noires.svg" alt="passage à la partie suivante"></a>
+                </div>
                 <div id="debut-de-page"></div>
                 
-                <article>
-                    <img src="public/img/Simone_Veil.webp" alt="Image de Simone Veil">
-                    <h3>Simone Veil</h3>
-                    <p>Simone Veil est une grande féministe surtout connue pour avoir proposé et mis en plus l’une des lois les plus importantes en France : la dépénalisation de l’accès à l’interruption volontaire de grossesse. Elle est née le 13 juillet 1927 et morte le 30 juin 2017. Survivante de la Shoah, elle y a perdu une partie de sa famille.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Simone_Veil.webp" alt="Image de Simone Veil">
+                    <h3 class="card__title">Simone Veil</h3>
+                    <p class="card__text">Simone Veil est une grande féministe surtout connue pour avoir proposé et mis en plus l’une des lois les plus importantes en France : la dépénalisation de l’accès à l’interruption volontaire de grossesse. Elle est née le 13 juillet 1927 et morte le 30 juin 2017. Survivante de la Shoah, elle y a perdu une partie de sa famille.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Gisèle_Halimi.webp" alt="Image de Gisèle Halimi">
-                    <h3>Gisèle Halimi</h3>
-                    <p>Il s’agit d’une avocate très investie dans la cause féministe. Elle a entre autre participé indirectement à la loi Veil, a manifesté pour l’accès à l'interruption volontaire de grossesse et a défendu les femmes violées aux yeux de la justice. Elle est née le 27 juillet 1927 en Tunisie et est morte le 28 juillet 2020 à Paris.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Gisèle_Halimi.webp" alt="Image de Gisèle Halimi">
+                    <h3 class="card__title">Gisèle Halimi</h3>
+                    <p class="card__text">Il s’agit d’une avocate très investie dans la cause féministe. Elle a entre autre participé indirectement à la loi Veil, a manifesté pour l’accès à l'interruption volontaire de grossesse et a défendu les femmes violées aux yeux de la justice. Elle est née le 27 juillet 1927 en Tunisie et est morte le 28 juillet 2020 à Paris.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Gloria_Steinem.webp" alt="Image de Gloria Steinem">
-                    <h3>Gloria Steinem</h3>
-                    <p>Gloria Steinem est une grande militante de la deuxième vague du féminisme (1960-1970). Elle est née le 25 mars 1934 aux Etats Unis et est toujours active pour le mouvement. Elle est journaliste et écrivaine.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Gloria_Steinem.webp" alt="Image de Gloria Steinem">
+                    <h3 class="card__title">Gloria Steinem</h3>
+                    <p class="card__text">Gloria Steinem est une grande militante de la deuxième vague du féminisme (1960-1970). Elle est née le 25 mars 1934 aux Etats Unis et est toujours active pour le mouvement. Elle est journaliste et écrivaine.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Oprah_Winfrey.webp" alt="Image de Oprah Winfrey">
-                    <h3>Oprah Winfrey</h3>
-                    <p>Oprah Winfrey est une actrice et grande animatrice de show télé. Née le 24 janvier 1964, c’est une grande féminisme. Elle a beaucoup évoqué et défendu les  femmes dans son talk show	The Oprah Winfrey Show, ce qui lui a value de nombreux prix.</p>
+                <article class="card">
+                    <img classe="card__img" src="public/img/Oprah_Winfrey.webp" alt="Image de Oprah Winfrey">
+                    <h3 class="card__title">Oprah Winfrey</h3>
+                    <p class="card__text">Oprah Winfrey est une actrice et grande animatrice de show télé. Née le 24 janvier 1964, c’est une grande féminisme. Elle a beaucoup évoqué et défendu les  femmes dans son talk show	The Oprah Winfrey Show, ce qui lui a value de nombreux prix.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Michelle_Obama.webp" alt="Image de Michelle Obama">
-                    <h3>Michelle Obama</h3>
-                    <p>Michelle Obama est une avocate investie dans les droits des femmes. Née le 17 janvier 1964, elle a diffusé l’idée d’accès à l’école pour les petites filles et d’autres valeurs féministes à travers ses discours. </p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Michelle_Obama.webp" alt="Image de Michelle Obama">
+                    <h3 class="card__title">Michelle Obama</h3>
+                    <p class="card__text">Michelle Obama est une avocate investie dans les droits des femmes. Née le 17 janvier 1964, elle a diffusé l’idée d’accès à l’école pour les petites filles et d’autres valeurs féministes à travers ses discours. </p>
                 </article>
 
-                <article>
-                    <img src="public/img/Emma_Watson.webp" alt="Image de Emma Watson">
-                    <h3>Emma Watson</h3>
-                    <p>Emma Watson est une des plus grandes féministes actuellement. Elle a fait de nombreux discours et voyages pour promouvoir ses idées féministes dans le monde. Elle est née le 15 avril 1990 et est une grande actrice britannique.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Emma_Watson.webp" alt="Image de Emma Watson">
+                    <h3 class="card__title">Emma Watson</h3>
+                    <p class="card__text">Emma Watson est une des plus grandes féministes actuellement. Elle a fait de nombreux discours et voyages pour promouvoir ses idées féministes dans le monde. Elle est née le 15 avril 1990 et est une grande actrice britannique.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Angèle.webp" alt="Image de Angèle">
-                    <h3>Angèle</h3>
-                    <p>Angèle est une chanteuse belge née le 3 décembre 1995. C’est une des personnalités les plus engagées dans le féminisme en Europe et même dans le monde. Elle a fait plusieurs titres engagées dont Balance ton quoi qui met bien en avant la thématique du féminisme et la défense des femmes.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Angèle.webp" alt="Image de Angèle">
+                    <h3 class="card__title">Angèle</h3>
+                    <p class="card__text">Angèle est une chanteuse belge née le 3 décembre 1995. C’est une des personnalités les plus engagées dans le féminisme en Europe et même dans le monde. Elle a fait plusieurs titres engagées dont Balance ton quoi qui met bien en avant la thématique du féminisme et la défense des femmes.</p>
                 </article>
 
-                <article>
-                    <img src="public/img/Malala-Yousafzai.webp" alt="Image de Malala Yousafzai">
-                    <h3>Malala Yousafzai</h3>
-                    <p>Malala is a pakistani born the 12 juillet 1997. She is very invested in the access to school for young girls. She has received a lot of prices like the price of peace in 2014 for her oppositions against the interdiction of education for girls and against the Taliban in Pakistan.</p>
+                <article class="card">
+                    <img class="card__img" src="public/img/Malala-Yousafzai.webp" alt="Image de Malala Yousafzai">
+                    <h3 class="card__title">Malala Yousafzai</h3>
+                    <p class="card__text">Malala is a pakistani born the 12 juillet 1997. She is very invested in the access to school for young girls. She has received a lot of prices like the price of peace in 2014 for her oppositions against the interdiction of education for girls and against the Taliban in Pakistan.</p>
                 </article>
             </div>
         </main>    
-        <footer>
+        <footer class="footer">
             <hr>
-            <img src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
-            <a href = "contact.html">Contact</a>
-            <p>Julie Albini - Groupe A1</p>
-            <p>julie-albini@orange.fr</p>                                
-            <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard.</p>
+            <img class="footer__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
+            <a class="footer__lien" href = "contact.html">Contact</a>
+            <p class="footer__text">Julie Albini - Groupe A1</p>
+            <p class="footer__text">julie-albini@orange.fr</p>                                
+            <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard.</p>
         </footer>
     </body>
 </html>
