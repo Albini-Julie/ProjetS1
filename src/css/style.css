@@ -1,0 +1,17 @@
+/*variables*/
+
+@import url(utils/variables.css);
+
+/*components*/
+
+@import url(components/menu.css);
+@import url(components/work.css);
+@import url(components/intro.css);
+@import url(components/card.css);
+@import url(components/contenu.css);
+@import url(components/formulaire.css);
+
+/*layout*/
+
+@import url(layout/header.css);
+@import url(layout/footer.css);
