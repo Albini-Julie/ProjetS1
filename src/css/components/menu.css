@@ -1,0 +1,25 @@
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: var(--blanc);
+    background-color: var(--noir);
+    font-size: var(--onglet-menu);
+    transform: translateX(100%);
+    transition: all .8s ease;
+}
+
+.menu--open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+.menu__lien {
+    text-decoration: none;
+    color: var(--blanc)
+}
