@@ -20,7 +20,12 @@
     --texte: 0.88rem;
     --introduction-article: 0.88rem;
     --footer: 0.75rem;
-    --légende-image: 0.75rem;
+    --legende-image: 0.75rem;
     --onglet-menu-2: 1.88rem;
     --base: 1rem;
+
+    /*Poice de caractères*/
+    --font-sherif: 'Playfair Display', serif;
+    --font-sans-sherif:'Work Sans', sans-serif;
+
 }
