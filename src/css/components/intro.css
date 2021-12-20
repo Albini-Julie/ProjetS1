@@ -1,0 +1,32 @@
+.intro__text {
+    display: flex;
+    font-family: var( --font-sans-sherif);
+    font-size: var(--texte);
+    position: absolute;
+    top:5%;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.intro__link {
+    display: flex;
+    position:absolute;
+    top: 70%;
+    width: 100%;
+    height: 50%;
+    overflow-x: scroll;
+}
+
+.intro__img {
+    display: flex;
+    position:relative;
+    top:-50%;
+}
+
+.intro__icon {
+    display: flex;
+    position : absolute;
+    bottom: 0%;
+    left: 45%;
+}
