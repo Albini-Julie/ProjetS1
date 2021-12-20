@@ -9,28 +9,29 @@
         <title>Femina</title>
 
         <link rel="stylesheet" href="src/css/style.css">
+        <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
     </head>
-    <body>
+    <body class="background__rose">
         <header class="header">
             <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
-            <button>
-                <img class="header__menu" src="public/icons/icone_de_recherche.svg" alt="icone de menu">
+            <button class="header__menu">
+                <img src="public/icons/Menu_noir.svg" alt="icone de menu">
             </button>
             <h1 class="header__title">Femina</h1>
-            <nav>
+            <nav class="menu">
             <ul class="menu">
-                <li class="menu__lien"><a href="article1.html">Le rôle des hommes dans le féminisme, militants oubliés</a></li>
-                <li class="menu__lien"><a href="article2.html">Michelle Obama, une féministe internationale</a></li>
-                <li class="menu__lien"><a href="article3.html">Les figures de l'ombre, lumières malgré elles</a></li>
-                <li class="menu__lien"><a href="galerie.html">Galerie</a></li>
-                <li class="menu__lien"><a href="glossaire.html">Glossaire</a></li>
-                <li class="menu__lien"><a href="A_propos.html">À propos</a></li>
+                <li class="menu__lien menu"><a href="article1.html">Le rôle des hommes dans le féminisme, militants oubliés</a></li>
+                <li class="menu__lien menu"><a href="article2.html">Michelle Obama, une féministe internationale</a></li>
+                <li class="menu__lien menu"><a href="article3.html">Les figures de l'ombre, lumières malgré elles</a></li>
+                <li class="menu__lien menu"><a href="galerie.html">Galerie</a></li>
+                <li class="menu__lien menu"><a href="glossaire.html">Glossaire</a></li>
+                <li class="menu__lien menu"><a href="A_propos.html">À propos</a></li>
             </ul>
             </nav>
-            <details>
-            <summary class="menu menu__langues">Langues</summary> 
-            <a class="menu menu__lien" href=index_en.html>English</a>
-            <a class="menu menu__lien" href=index.html>Français</a> 
+            <details class="menu">
+                <summary class="menu menu__langues">Langues</summary> 
+                <a class="menu__lien menu" href=index_en.html>English</a>
+                <a class="menu__lien menu" href=index.html>Français</a> 
             </details>
         </header> 
         <main>
@@ -48,10 +49,10 @@
             <div>
                 <div id="debut-de-page"></div>
                 <button>
-                    <img class="header__menu" src="public/icons/icone_de_recherche.svg" alt="icone de menu">
+                    <img class="header__menu header__menu--2" src="public/icons/Menu_noir.svg" alt="icone de menu">
                 </button>
                 <article class="work">
-                    <a class="work__lien"href="article1.html">
+                    <a class="work__lien" href="article1.html">
                         <img class="work__img" src="public/img/Image_article_hommes_féministes.webp" alt="image article Le rôle des hommes dans le féminisme, militants oubliés">
                         <h4 class="work__title">Le rôle des hommes dans le féminisme, militants oubliés</h4>
                         <p class="work__text">Lorsque l’on parle féminisme, on pense souvent à des femmes qui 
