@@ -1,5 +1,19 @@
 .footer{
-    display: flex;
     position: absolute;
-    top: 200%
+    top: 188%;
+    background-color: var(--blanc);
+    font-family: var(--font-sans-sherif);
+    font-size: var(--footer);
+}
+
+.footer__lien {
+    text-decoration: none;
+    position: absolute;
+    right: 25%;
+    bottom: 40%;
+    border-style: solid ;
+    border-width: 0.15rem;
+    border-style: solid ;
+    border-color: var(--noir);
+    padding: 2%;
 }
