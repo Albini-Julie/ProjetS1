@@ -35,3 +35,8 @@
     left: 1%;
     top: 1%;
 }
+
+#debut-de-page {
+    position: absolute;
+    bottom: 1%;
+}

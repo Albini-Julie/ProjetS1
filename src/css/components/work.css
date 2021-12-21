@@ -1,12 +1,11 @@
 .work {
-    display: flex;
     border-width: 0.1rem;
     border-style: solid ;
     border-spacing: 5rem;
     border-color: var(--noir);
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
 }
 
 .work__1 {
@@ -22,7 +21,7 @@
 
 .work__3 {
     position: absolute;
-    bottom: -100%;
+    bottom: -96%;
 }
 
 .work__lien {
@@ -31,7 +30,7 @@
 }
 
 .work__img {
-    width: 50%;
+    width: 40%;
     float: left;
     margin-left: 2%;
     margin-right: 2%;
@@ -39,7 +38,7 @@
 }
 
 .work__title {
-    position:relative;
+    position: relative;
     font-family: var(--font-sans-sherif);
     font-size: var(--lien-article-intertitre-galerie);
 }
@@ -48,4 +47,5 @@
     position: relative;
     font-family: var(--font-sans-sherif);
     font-size: var(--text);
+    
 }
