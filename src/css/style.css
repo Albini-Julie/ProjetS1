@@ -22,3 +22,6 @@
 
 /*vendors*/
 @import url(vendors/normalize.css);
+
+/*base*/
+@import url(base/main.css);
