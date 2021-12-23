@@ -1,0 +1,6 @@
+.contenu__icon {
+    display: flex;
+    position : absolute;
+    bottom: 0%;
+    left: 45%;
+}

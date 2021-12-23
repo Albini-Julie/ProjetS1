@@ -1,6 +1,6 @@
 .footer{
     position: absolute;
-    top: 188%;
+    bottom: 0%;
     background-color: var(--blanc);
     font-family: var(--font-sans-sherif);
     font-size: var(--footer);
