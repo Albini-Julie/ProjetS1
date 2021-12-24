@@ -1,6 +1,4 @@
 .footer{
-    position: absolute;
-    bottom: 0%;
     background-color: var(--blanc);
     font-family: var(--font-sans-sherif);
     font-size: var(--footer);
@@ -11,13 +9,13 @@
 }
 
 .footer__lien {
+    position: absolute;
+    margin-left: 11rem;
+    margin-top: 1rem;
     font-family: var(--font-sans-sherif);
     font-size: var(--texte);
     color: var(--noir);
     text-decoration: none;
-    position: absolute;
-    right: 10%;
-    bottom: 40%;
     border-style: solid ;
     border-width: 0.15rem;
     border-color: var(--noir);
@@ -25,12 +23,11 @@
 }
 
 .footer__text {
-    position: relative;
-    left: 10%;
+    margin-left: 4.5rem;
+    padding: 0.2rem;
 }
 
 .footer__logo {
-    position: absolute;
-    bottom: 25%;
-    width: 15%;
+    float: left;
+    margin-top: 1rem;
 }

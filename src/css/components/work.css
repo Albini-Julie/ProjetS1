@@ -1,27 +1,11 @@
 .work {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 6%;
     border-width: 0.1rem;
     border-style: solid ;
     border-spacing: 5rem;
     border-color: var(--noir);
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20%;
-}
-
-.work__1 {
-    position: absolute;
-    bottom: -40%;
-}
-
-.work__2 {
-    position: absolute;
-    bottom: -70%;
-    
-}
-
-.work__3 {
-    position: absolute;
-    bottom: -96%;
 }
 
 .work__lien {
@@ -38,13 +22,11 @@
 }
 
 .work__title {
-    position: relative;
     font-family: var(--font-sans-sherif);
     font-size: var(--lien-article-intertitre-galerie);
 }
 
 .work__text {
-    position: relative;
     font-family: var(--font-sans-sherif);
     font-size: var(--texte);
     

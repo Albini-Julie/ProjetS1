@@ -1,7 +1,7 @@
 .header__title {
-    display: flex;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 3rem;
+    margin-top: -2.5rem;
     color: var(--noir);
     font-family: var(--font-sherif);
     font-size: var(--titre-1);
@@ -10,6 +10,8 @@
 
 .header__menu {
     display: flex;
+    margin-top: -3rem;
+    margin-right: 1rem;
     float: right;
     filter: none;
     border: none;
@@ -17,23 +19,18 @@
 }
 
 .header__menu--2 {
-    display: flex;
+    margin-top: -2.5rem;
     filter: none;
-    position: absolute;
-    left: 85%;
-    top: 100%;
     border: none;
     background: none;
 }
 
 .header__logo {
     display: flex;
-    position: absolute;
-    left: 1%;
-    top: 1%;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 #debut-de-page {
-    position: absolute;
-    bottom: 1%;
+    margin-bottom: 10%;
 }
