@@ -4,3 +4,43 @@
     bottom: 0%;
     left: 45%;
 }
+
+.contenu__text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: var(--font-sans-sherif);
+    font-size: var(--texte);
+}
+
+.contenu__img {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.contenu__intertitle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: var(--font-sans-sherif);
+    font-size: var(--intertitre-article);
+}
+
+.contenu__legende {
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem;
+    font-family: var(--font-sans-sherif);
+    font-size: var(--legende-image);
+    font-style: italic;
+}
+
+.contenu__citation {
+    display:flex;
+    margin: 2rem;
+    font-family: var(--font-sans-sherif);
+    font-size: var(--introduction-article);
+    font-style: italic;
+
+}

@@ -7,9 +7,13 @@
     border-top: solid;
     border-color: var(--noir);
     border-width: 0.15rem;
+    width: 100%;
 }
 
 .footer__lien {
+    font-family: var(--font-sans-sherif);
+    font-size: var(--texte);
+    color: var(--noir);
     text-decoration: none;
     position: absolute;
     right: 10%;
@@ -22,7 +26,7 @@
 
 .footer__text {
     position: relative;
-    left: 14%;
+    left: 10%;
 }
 
 .footer__logo {

@@ -46,6 +46,6 @@
 .work__text {
     position: relative;
     font-family: var(--font-sans-sherif);
-    font-size: var(--text);
+    font-size: var(--texte);
     
 }

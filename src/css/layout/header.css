@@ -1,20 +1,17 @@
 .header__title {
     display: flex;
+    text-align: center;
+    margin-left: 35%;
     color: var(--noir);
     font-family: var(--font-sherif);
-    font-size: var(--titre-page);
-    position:absolute;
-    left:35%;
-    top: 5%
+    font-size: var(--titre-1);
 
 }
 
 .header__menu {
     display: flex;
+    float: right;
     filter: none;
-    position: absolute;
-    left: 85%;
-    top: 3%;
     border: none;
     background: none;
 }

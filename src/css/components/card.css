@@ -1,0 +1,22 @@
+.card {
+    margin-top: 2rem;
+}
+
+.card__img {
+    width: 35%;
+    float: left;
+    margin-left: 0.3rem;
+    margin-right: 1rem;
+}
+
+.card__text {
+    font-family: var(--font-sans-sherif);
+    font-size: var(--texte);
+    margin-left: 0.3rem;
+    margin-right: 1rem;
+}
+
+.card__title {
+    font-family: var(--font-sans-sherif);
+    font-size: var(--lien-article-intertitre-galerie);
+}
