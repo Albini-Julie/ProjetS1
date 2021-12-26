@@ -1,6 +1,8 @@
 .contenu__icon {
-    margin-left: 10rem;
-    margin-top: 0.5rem
+    display: flex;
+    text-align: center;
+    margin: auto;
+    
 }
 
 .contenu__text {
@@ -16,6 +18,10 @@
     text-align: center;
     margin: auto;
     
+}
+
+.contenu__img--redimension {
+    width: 40%;
 }
 
 .contenu__intertitle {
@@ -45,4 +51,24 @@
 
 .contenu__text--souligne {
     text-decoration: underline;
+}
+
+.contenu__caroussel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.contenu__caroussel--text {
+    display: inline;
+    font-family: var(--font-sans-sherif);
+    font-size: var(--texte);
+    flex: 1 0 450px;
+    margin-bottom: 1rem;
+
+}
+
+.contenu__caroussel--text a {
+    color: var(--noir);
+    font-size: var(--intertitre-article);
 }
