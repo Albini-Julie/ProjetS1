@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{ menuIsOpen : false, menulangueOpen : false }" :class="menuIsOpen && 'noscroll'">
+<html lang="fr" x-data="{ menuIsOpen : false}" :class="menuIsOpen && 'noscroll'">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,20 +11,19 @@
         <link rel="stylesheet" href="src/css/style.css">
         <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
     </head>
-    <body class="background__rose" x-data="{ atTop : false }">
+    <body class="background__rose">
         <header class="header">
             <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
-            <button class="header__menu header__menu-btn" 
+            <button class="header__menu" 
                     @click="menuIsOpen = !menuIsOpen"
-                    :class="menuIsOpen && 'menu-btn--open'">
-                <span class="menu-btn__bar"></span>
+                    :class="menuIsOpen">
                 <img src="public/icons/Menu_noir.svg" alt="icone de menu">
             </button>
             <h1 class="header__title">Femina</h1>
             
             <!--Menu-->
             <div class="menu" :class="menuIsOpen && 'menu--open'">
-                <img class="menu__logo" src="public/icons/Logo blanc.jpg" alt="logo de Femina">
+                <img class="menu__logo" src="public/icons/Logo_blanc.jpg" alt="logo de Femina">
                 <h2 class="menu__title">Femina</h2>
                 <img class="menu__croix" 
                 @click="menuIsOpen = false"
@@ -44,7 +43,7 @@
                         <a class="menu__item--texte menu__link" href="index_en.html">English</a>
                         <a class="menu__link menu__item--texte" href="index.html">Français</a>
                 </details>
-        </div>
+            </div>
             <!--Fin menu-->
 
         </header> 
@@ -55,16 +54,19 @@
                 concept qui reste malgré tout difficile à cerner. Nous verrons à travers plusieurs articles 
                 des côtés plus inconnus du féminisme, mais également les grandes figures qui l’ont marqué et 
                 qui continuent de le faire avancer aujourd’hui.</p>
-                <video class="intro__video" controls autoplay src="https://www.youtube.com/watch?v=ftad0EGsJDg&list=PLlfcWRRiTmztbEvP9hpmkgCo4uS46SnfB&index=8">
+                <video class="intro__video" src=""></video>
                 <a class="intro__link" href="glossaire.html"> <img class="intro__img" src="public/img/Frise_francais.jpg" alt="Frise féminisme"></a>
                 <a href="#debut-de-page"><img class="intro__icon" src="public/icons/Flèches_noires.svg" alt="passage à la partie suivante"></a>
                 </div>
                 
             <div>
                 <div id="debut-de-page"></div>
-                <button class="header__menu header__menu--2">
-                    <img src="public/icons/Menu_noir.svg" alt="icone de menu">
-                </button>
+                <button class="header__menu header__menu--2 header__menu-btn" 
+                    @click="menuIsOpen = !menuIsOpen"
+                    :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+                <img src="public/icons/Menu_noir.svg" alt="icone de menu">
+            </button>
                 <article class="work">
                     <a class="work__lien" href="article1.html">
                         <img class="work__img" src="public/img/Image_article_hommes_féministes.webp" alt="image article Le rôle des hommes dans le féminisme, militants oubliés">
