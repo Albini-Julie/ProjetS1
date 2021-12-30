@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{ menuIsOpen : false}" :class="menuIsOpen && 'noscroll'">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +9,43 @@
         <title>Femina</title>
 
         <link rel="stylesheet" href="src/css/style.css">
+        <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
     </head>
     <body class="background__bleu">
         <header class="header">
             <a href="index_en.html">
-                <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
+                <img class="header__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina'logo">
             </a>
-            <button class="header__menu">
-                <img src="public/icons/Menu_noir.svg" alt="icone de menu">
+            <button class="header__menu" 
+                    @click="menuIsOpen = !menuIsOpen"
+                    :class="menuIsOpen">
+                <img src="public/icons/Menu_noir.svg" alt="menu's icon">
             </button>
             <h1 class="header__title">Femina</h1>
-            <nav class="menu">
-            <ul class="menu">
-                <li class="menu__lien menu"><a href="article1.html">Le rôle des hommes dans le féminisme, militants oubliés</a></li>
-                <li class="menu__lien menu"><a href="article2.html">Michelle Obama, une féministe internationale</a></li>
-                <li class="menu__lien menu"><a href="article3.html">Les figures de l'ombre, lumières malgré elles</a></li>
-                <li class="menu__lien menu"><a href="galerie.html">Galerie</a></li>
-                <li class="menu__lien menu"><a href="glossaire.html">Glossaire</a></li>
-                <li class="menu__lien menu"><a href="A_propos.html">À propos</a></li>
-            </ul>
-            </nav>
-            <details class="menu">
-            <summary class=" menu menu__langues">Langues</summary> 
-            <a class="menu menu__lien" href=index_en.html>English</a>
-            <a class="menu menu__lien" href=index.html>Français</a> 
-            </details>
+            
+            <div class="menu" :class="menuIsOpen && 'menu--open'">
+                <img class="menu__logo" src="public/icons/Logo_blanc.jpg" alt="Femina's logo">
+                <h2 class="menu__title">Femina</h2>
+                <img class="menu__croix" 
+                @click="menuIsOpen = false"
+                src="public/icons/Croix_menu.svg" alt="cross to close the menu">
+                <nav>
+                    <ul class="menu__list list-unstyled">
+                        <li class="menu__item"><a class="menu__link" href="article1_en.html">The men’s role in feminism, forgotten activists</a></li>
+                        <li class="menu__item"><a class="menu__link" href="article2_en.html">Michelle Obama, an international feminist</a></li>
+                        <li class="menu__item"><a class="menu__link" href="article3_en.html">Hidden figures, sunlights figures despite them</a></li>
+                        <li class="menu__item"><a class="menu__link" href="galerie_en.html">Gallery</a></li>
+                        <li class="menu__item"><a class="menu__link" href="glossaire_en.html">Glossary</a></li>
+                        <li class="menu__item"><a class="menu__link" href="A_propos_en.html">By the way</a></li>
+                    </ul>
+                </nav>
+                <details>
+                    <summary class="menu__link menu__item menu__item--langue">Language</summary>
+                        <a class="menu__item menu__item--texte menu__link" href="index_en.html">English</a>
+                        <a class="menu__link menu__item menu__item--texte" href="index.html">Français</a>
+                </details>
+            </div>
+
         </header>
         <main>
             <div>
@@ -50,7 +62,7 @@
                         <figcaption class="contenu__legende">BUT MMI Montbeliard’s logo</figcaption>
                     </figure>
                     <p class="contenu__text">It is for what I was going in the MMI BUT which enables on one part to prepare for this job and on the other hand which combines these two aspects. Indeed, we develop our creative mind across different creations, numerically or not. We have also some classes which enable us to make a link between our creations and the informatic tool like graphic production’s classes.</p>
-                    <a class="contenu__icon" href=index_en.html/parties2> <img src="public/icons/Flèches_noires.svg" alt="next part passage"></a>
+                    <a href="#debut-de-page"><img class="contenu__icon" src="public/icons/Flèches_noires.svg" alt="next part passage"></a>
                     <div id="debut-de-page"></div>
                 </article>
 
@@ -60,18 +72,63 @@
                     <p class="contenu__text">As we have seen many times across the different articles particularly, feminism is an important concern for today and for the future. It is for what I have taken to heart the creation of this website and of the contents : they serve a good cause. I hope that this website will help to make progress in people's minds and participate in this fight which didn’t have to take place today.</p>
                 </article>
 
-                <article class="hero">
+                <article class="contenu">
                     <h2 class="hero__title">Others projects</h2>
-                </article>
+                    <p class="contenu__text">Pour avoir d’autres informations sur le féminisme, voici d’autres sites qui pourraient vous être utiles.</p>
 
-                <div class="contenu">
-                    <p class="contenu__text">To have other information about feminism, here other websites which can help you.</p>
-                    <img class="contenu__caroussel" src="public/img/Caroussel_a_propos_fr.jpg" alt="Carousel of projects">
-                </div>
+                    <div class="contenu__caroussel">
+                        <div class=" contenu__caroussel contenu__caroussel--text">
+                            <a href="">Women's work - Lilian Chesneau</a>
+                        </div>
+                        
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Victims - Nafissa Arnone</a>
+                        </div>
+                        
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="https://bourezg-eden.netlify.app">Inovation in feminism - Eden Bourezg</a>
+                        </div>
+                        
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Fémi-Nigéria - Maxence Cante</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Parlons féminisme - Hugo Beaurain</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Femini-Fight - Alexis Berthon</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">FeminismUS - Corentin Beuchat</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Heroine of today - Matthieu Bouque</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Les origines du féminisme du europe - Enzo Canonico</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Women's Power - Morgane Chamberlin</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Feminisma - Mélina Bouchelleghem</a>
+                        </div>
+
+                        <div class="contenu__caroussel contenu__caroussel--text">
+                            <a href="">Reuniverse Blogs - Johann Bockstaller</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </main>
         <footer class="footer">
-            <hr>
             <img class="footer__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="Femina logo">
             <a class="footer__lien" href = "contact_en.html">Contact</a>
             <p class="footer__text">Julie Albini - A1 groupe</p>
