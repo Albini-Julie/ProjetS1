@@ -8,6 +8,7 @@
 .contenu__text {
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
     font-family: var(--font-sans-sherif);
     font-size: var(--texte);
 }
@@ -21,7 +22,7 @@
 }
 
 .contenu__img--redimension {
-    width: 40%;
+    width: 48%;
 }
 
 .contenu__intertitle {

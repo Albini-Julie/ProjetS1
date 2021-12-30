@@ -1,0 +1,36 @@
+.formulaire__legende {
+    font-family: var(--font-sans-sherif);
+    font-size: var(--champ-formulaire);
+    margin-left: 1.5rem;
+}
+
+.formulaire__champ {
+    width: 85%;
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--rose-pastel);
+    border-color: var(--noir);
+    height: 6.2rem;
+
+}
+
+.formulaire__champ--sbordure {
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+    height: 1rem;
+}
+
+.formulaire__envoyer {
+    margin-left: 15rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: var(--noir);
+    border-color: var(--noir);
+    border-radius: 0.4rem;
+    color: var(--blanc);
+    font-family: var(--font-sans-sherif);
+    font-size: var(--champ-formulaire);
+}
