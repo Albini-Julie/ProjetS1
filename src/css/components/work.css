@@ -6,11 +6,16 @@
     border-style: solid ;
     border-spacing: 5rem;
     border-color: var(--noir);
+    padding: 10px;
 }
 
 .work__lien {
     text-decoration: none;
     color: var(--noir);
+}
+
+.work__lien--glossaire {
+    text-decoration: underline;
 }
 
 .work__img {
