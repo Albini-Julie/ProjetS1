@@ -1,8 +1,5 @@
 .contenu__icon {
-    display: flex;
-    text-align: center;
-    margin: auto;
-    
+    margin-left: 10rem;
 }
 
 .contenu__text {
@@ -43,21 +40,24 @@
 
 .contenu__citation {
     display:flex;
-    margin: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
     font-family: var(--font-sans-sherif);
-    font-size: var(--introduction-article);
+    font-size: var(--base);
     font-style: italic;
 
 }
 
 .contenu__text--souligne {
     text-decoration: underline;
+    margin-left: 1rem;
 }
 
 .contenu__caroussel {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    gap: 1rem;
 }
 
 .contenu__caroussel--text {
@@ -66,10 +66,17 @@
     font-size: var(--texte);
     flex: 1 0 450px;
     margin-bottom: 1rem;
+    margin-left : 1rem;
 
 }
 
 .contenu__caroussel--text a {
     color: var(--noir);
     font-size: var(--intertitre-article);
+}
+
+.contenu__link {
+    text-decoration: none;
+    color: var(--noir);
+    text-decoration: underline;
 }

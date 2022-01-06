@@ -70,9 +70,9 @@ details > summary:first-of-type {
     list-style-type: none;
 }
 
-/*.menu__item--texte ::before {
+.menu__item--texte ::before {
+    content:'';
+    background: url(../../../public/icons/fleche_menu.svg) no-repeat;
     height:10px;
     width:100px;
-    background: orange;
-    content:"" 
-}*/
+}
