@@ -1,5 +1,4 @@
 .intro__text {
-    display: flex;
     font-family: var( --font-sans-sherif);
     font-size: var(--texte);
     margin-top: 0.5rem;
@@ -33,4 +32,10 @@
     margin: auto;
     margin-bottom: 1rem;
     width: 70%;
+}
+
+.intro__lien {
+    text-decoration: none;
+    color: var(--noir);
+    text-decoration: underline;
 }
