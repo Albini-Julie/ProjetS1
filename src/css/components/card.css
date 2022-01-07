@@ -1,18 +1,18 @@
 .card {
-    margin-top: 2.6rem;
+    margin-top: 2rem;
 }
 
 .card__img {
     width: 35%;
     float: left;
-    margin-left: 0.3rem;
+    margin-left: 0.8rem;
     margin-right: 1rem;
 }
 
 .card__text {
     font-family: var(--font-sans-sherif);
     font-size: var(--texte);
-    margin-left: 0.3rem;
+    margin-left: 0.8rem;
     margin-right: 1rem;
 }
 
