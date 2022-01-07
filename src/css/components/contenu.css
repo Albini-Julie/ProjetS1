@@ -24,6 +24,12 @@
     
 }
 
+.contenu__img--404 {
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 3.35rem;
+}
+
 .contenu__img--redimension {
     width: 48%;
 }

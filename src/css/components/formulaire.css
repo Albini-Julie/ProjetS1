@@ -23,6 +23,14 @@
     height: 1rem;
 }
 
+.formulaire__champ--404 {
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+    height: 1rem;
+    background-color: white;
+}
+
 .formulaire__envoyer {
     margin-left: 15rem;
     width: 6rem;

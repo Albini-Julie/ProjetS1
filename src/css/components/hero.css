@@ -26,3 +26,11 @@
     color: var(--noir);
     text-decoration: underline;
 }
+
+.hero__text {
+    font-family: var(--font-sans-sherif);
+    font-size: var(--texte);
+    color: var(--noir);
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
