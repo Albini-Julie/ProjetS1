@@ -5,3 +5,7 @@
 .background__bleu {
     background-color: var(--bleu-pastel);
 }
+
+.background__multi {
+    background: linear-gradient(#EABEBD, #79BCD9);
+}
