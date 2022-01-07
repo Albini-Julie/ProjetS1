@@ -1,6 +1,6 @@
 .header__title {
     text-align: center;
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: -2.5rem;
     color: var(--noir);
     font-family: var(--font-sherif);
@@ -10,7 +10,7 @@
 
 .header__menu {
     display: flex;
-    margin-top: -3rem;
+    margin-top: 2rem;
     margin-right: 1rem;
     float: right;
     filter: none;
@@ -18,15 +18,7 @@
     background: none;
 }
 
-.header__menu--2 {
-    margin-top: -2.5rem;
-    filter: none;
-    border: none;
-    background: none;
-}
-
 .header__logo {
-    display: flex;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
 }
