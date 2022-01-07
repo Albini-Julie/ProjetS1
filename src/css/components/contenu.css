@@ -1,5 +1,10 @@
 .contenu__icon {
     margin-left: 10rem;
+    margin-top: 1.5rem;
+}
+
+.contenu__icon-gallerie {
+    margin-left: 1.5rem;
 }
 
 .contenu__text {
@@ -39,9 +44,10 @@
 }
 
 .contenu__citation {
-    display:flex;
-    margin-left: 6rem;
-    margin-bottom: 1rem;
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    
     font-family: var(--font-sans-sherif);
     font-size: var(--base);
     font-style: italic;
@@ -61,17 +67,14 @@
 
 .contenu__caroussel--text {
     font-family: var(--font-sans-sherif);
-    font-size: var(--texte);
     flex: 1 0 auto;
-    margin-bottom: 1rem;
-    margin-left : 1rem;
-    margin-right : 1rem;
+    margin: 1rem;
 
 }
 
 .contenu__caroussel--text a {
     color: var(--noir);
-    font-size: var(--intertitre-article);
+    font-size: var(--onglet-menu);
 }
 
 .contenu__link {
