@@ -48,18 +48,31 @@
             </div>
         </header>
     <body class="background__multi">
-        <section class="hero">
-            <h1 class="hero__title">Page not find</h1>
-            <p class="hero__text">We can't accede to your request. Please enter a new website name.</p>
-        </section>
+        <main>
+            <section class="hero">
+                <h1 class="hero__title">Page not found</h1>
+                <p class="hero__text">We can't access your request. Please enter a new website name.</p>
+            </section>
 
-        <form class="formulaire" action="https://duckduckgo.com/" method="GET" 
-            x-data="{ q:'', }" 
-            x-on:submit="q = q'">
-        <label class="formulaire__legende" for="q">Text to search :</label>
-        <input class="formulaire__champ" type="text" id="q" name="q" x-model="q">
-        <button class="formulaire__envoyer"type="submit">Search</button>
-        </form>
+            <form class="formulaire" action="https://duckduckgo.com/" method="GET" 
+                x-data="{ q:'', }" 
+                x-on:submit="q = q'">
+            <label class="formulaire__legende" for="q">Text to search :</label>
+            <input class="formulaire__champ formulaire__champ--404" type="text" id="q" name="q" x-model="q">
+            <button class="formulaire__envoyer"type="submit">Search</button>
+            </form>
+
+            <img class="contenu__img contenu__img--404" src="public/img/pleurs.gif" alt="gif page 404">
+        </main>
+        
+        <footer class="footer">
+            <img class="footer__logo" src="public/icons/Logo_noir_dépixélisé1.svg" alt="logo de Femina">
+            <a class="footer__lien" href = "contact.html">Contact</a>
+            <p class="footer__text">Julie Albini - Groupe A1</p>
+            <p class="footer__text">julie-albini@orange.fr</p>                                
+            <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard.</p>
+        </footer>
+
     </body>
 </html>
     
