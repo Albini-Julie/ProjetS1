@@ -14,10 +14,6 @@
     color: var(--noir);
 }
 
-.work__lien--glossaire {
-    text-decoration: underline;
-}
-
 .work__img {
     width: 40%;
     float: left;
