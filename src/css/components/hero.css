@@ -20,3 +20,9 @@
     border-left: 0.2rem solid var(--noir); 
     padding-left: 1rem;
 }
+
+.hero__lien {
+    text-decoration: none;
+    color: var(--noir);
+    text-decoration: underline;
+}
